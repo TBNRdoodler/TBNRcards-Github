@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\Rounds_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="CardChoiceSpawnUniqueCardPatch">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\CardChoiceSpawnUniqueCardPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassesManagerReborn">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\ClassesManagerReborn.dll</HintPath>
+    </Reference>
+    <Reference Include="ModdingUtils">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\ModdingUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="RarityLib">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\RarityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnboundLib">
+      <HintPath>..\..\..\..\..\Downloads\BepInEx modding files\UnboundLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\Rounds_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\Rounds_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
